@@ -1,0 +1,79 @@
+ch - 3 DWPD
+types of array:
+1.index array-it can be access by the array index value (0,1,2)
+eg: $f=array("a","b","c");
+2.asociative array-it can be access by the key value pair
+eg: $n=array("a"=>"1","b"=>"2","c"=>"3");
+3.multi-diementional array-array within array ([0][0],[1][0],[0][1])
+eg: $c=array
+{
+	array("a",1,2),
+	array("b",2,3),
+	array("c",3,4)
+};
+function:
+User Define Function Without Arugument:
+function function_name()
+{
+	//body;
+}
+eg:
+<?php
+	function hello()
+	{
+		echo"Hello World";
+	}
+	hello():
+?>
+Function With Arugument:
+<?php
+	function hello($h,$w)
+	{
+		echo"$h:$w<br>";
+	}
+	hello(hello,world);
+?>
+Function With Default  Arugument Value:
+<?php
+	function hello($h="hi")
+	{
+		echo"$h<br>";
+	}
+	hello(hello);
+	hello();	
+?>
+Function With Return Value:
+<?php
+	function hello($h,$w)
+	{
+		$z=$h+$x;
+		return $z;
+	}
+	$ans=hello(10,20);
+	echo"addition = ".$ans."<br>";
+?>
+
+lenght of array(count):
+systax:count(array_name);
+
+Define starting index of array:
+syntax:eg: $n=array(2=>1,2,3);
+
+this is the example of multi-D array:
+eg: $cars=array
+{
+	array("volvo",1,2),
+	array("bmw",2,3),
+	array("alto",3,4)
+};
+it can be printed by the multi dimentional array matrix.
+
+sorting of array:
+1.accending-(sort)
+2.decending-(rsort)
+3.associative array in decending-(asort)-key
+4.associative array in accending-(ksort)-key
+5.associative array in decending-(arsort)-value
+6.associative array in accending-(krsort)-value
+
+

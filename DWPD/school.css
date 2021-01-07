@@ -1,0 +1,10 @@
+body
+{
+    background-image: url("study.svg");
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+}
+nav>li>a
+{
+    text-decoration-color: black;
+}

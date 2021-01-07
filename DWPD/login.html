@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Sign Up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1>Sign Up</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="register.php" method="post">
+					<input class="text" type="text" name="Username" placeholder="Username" required="">
+					<input class="text email" type="email" name="email" placeholder="Email" required="">
+					<input class="text" type="password" name="password" placeholder="Password" required="">
+					<input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+					<textarea name="Address" id="" cols="55" rows="10" class="add" placeholder="  Address" required="" fixed></textarea>
+					<br><br>
+					<label for="city" id="city1">Choose a city :</label>
+					<select name="city" id="city">
+						<option value="volvo">vadodara</option>
+						<option value="saab">ahmdabad</option>
+						<option value="opel">surat</option>
+						<option value="audi">rajkot</option>
+					</select>
+					<input type="submit" value="SIGNUP">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

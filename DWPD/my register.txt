@@ -1,0 +1,12 @@
+name-3
+mail
+ph no.
+pass
+c-pass
+hobies
+gender
+address
+city
+contry
+state
+pin

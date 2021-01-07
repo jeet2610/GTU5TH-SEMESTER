@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #but
+        {
+            margin-left: 350px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+        <table align="center">
+            <tr>
+                <td> <h1>Feedback Form</h1></td>
+            </tr>
+            <tr>
+                <td>
+                  <h5> we would love to hear your houghts,cncerns,or problems with anything so we can improve!</h5>
+                </td>
+            </tr>
+            <tr> <td><h4>Feedback type:</h4></td></tr>
+                <tr>
+                    <td>
+                        <label class="radio-inline">
+                            <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                Bad 
+                       </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="experience" id="radio_experience" value="average" >
+                               Average 
+                       </label>
+                       <label class="radio-inline">
+                            <input type="radio" name="experience" id="radio_experience" value="good" >
+                                Good 
+                       </label>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments"><h4> Comments:</h4></label>
+                    </td>
+                </tr>
+                </tr>
+                    <td>
+                        <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="10" cols="100"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Name"><h4> Name:</h4></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Firstname">
+                        <input type="text" class="form-control" id="lname" name="lname" placeholder="Lastname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email"><h4> Email:</h4></label>
+                     <input type="email" class="form-control" id="email" name="email" placeholder="abc@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="btn btn-lg btn-success btn-block" id="but">Submit Feedback</button>
+                    </td>
+                </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
